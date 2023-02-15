@@ -1,4 +1,11 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --tertiary-color: #FFA31A;
+    --heading: 'Maven Pro', sans-serif;
+    --font-color : #FFFFFF;
 
+}
 
 
 
@@ -58,7 +65,7 @@
         height: 0;
         position: absolute;
         top: 110px;
-        background-color: var(--primary-color);
+        background-color: var(--tertiary-color);
         width: 100vw;
         left: 0;
         right: 0;
