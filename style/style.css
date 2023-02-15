@@ -59,7 +59,7 @@ header {
 }
 
 .navbar ul li a:hover {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 .store-btn{

@@ -89,6 +89,10 @@
         color: red;
     }
 
+    .navbar ul li a:hover {
+        color: var(--primary-color);
+    }
+
     .navbar.active {
         height: 300px;
     }
