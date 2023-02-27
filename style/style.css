@@ -5,6 +5,11 @@
     /* box-sizing: content-box; */
 }
 
+html,body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 :root {
     --primary-color: #000000;
     --secondary-color: #FFFFFF;
