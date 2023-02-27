@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="style/responsive.css">
     <!-- Ajax Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -40,45 +42,47 @@
     
     <!-- Welcome Section Starts here -->
     <div class="welcome-section-con">
-        <div class="welcome-content-con" id="welcome">
-            <h1 class="welcome-heading">ADSvanced 
+        <div class="welcome-content-con" id="welcome" >
+            <h1 class="welcome-heading" data-aos="fade-down" data-aos-delay="50">ADSvanced 
                 Media Tech 
             </h1>
-            <h1 class="welcome-heading">Tattoo Studio  
+            <h1 class="welcome-heading" data-aos="fade-down" data-aos-delay="100">Tattoo Studio  
             </h1>
-            <p class="parag-content">Tattoos are a form of self-expression that allow individuals to tell their unique story through permanent ink on their skin.
+            <p class="parag-content" data-aos="fade-down" data-aos-delay="150">Tattoos are a form of self-expression that allow individuals to tell their unique story through permanent ink on their skin.
               A good tattoo shop should not only provide high-quality work, but also a welcoming and supportive environment for clients to feel comfortable in.
            </p>
-           <p class="parag-content">"Ink your story, wear it forever."
+           <p class="parag-content" data-aos="fade-down" data-aos-delay="200">"Ink your story, wear it forever."
            </p>
-            <a href="#"><button class="btn">Explore Us</button></a>
+            <a href="#" ><button class="btn" data-aos="zoom-in" >Explore Us</button></a>
         </div>
 
-        <div class="welcome-img-con">
+        <div class="welcome-img-con" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
         </div>
     </div>
 
       <!-- About Starts here -->
       <div class="about-section-con" id="about">
-        <div class="about-video-con">
+        <div class="about-video-con" data-aos="fade-in">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BwKUSAVb_Zw"  frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="about-section-content-con">
+        <div class="about-section-content-con" data-aos="fade-in">
             <h1 class="content-heading">How ADSvanced Media Tech Tattoo Shop start?</h1>
             <h1 class="content-heading">Watch our Story</h1>
             <p class="parag-content">At ADSvanced Media Tech Tattoo, we're dedicated to providing high-quality tattoos that tell your unique story. Our talented artists take the time to understand your vision and bring it to life with their exceptional skills. Whether you're looking for a custom design, 
               a cover-up, or a portrait tattoo, we use only the best equipment and inks to ensure that your tattoo lasts a lifetime. Come visit us and let us help you ink your story today.
             </p>
-            <a href="#"><button class="btn">Watch More</button></a>
+            <a href="#"><button class="btn" data-aos="zoom-in">Watch More</button></a>
         </div>
     </div>
 
       <!-- Our Services -->
       <div class="our-services-con" id="our-services">
-        <h1 class="content-heading">Our Services</h1>
+        <h1 class="content-heading" data-aos="zoom-in" data-aos-delay="50">Our Services</h1>
         <div class="services">
-            <div class="service">
+            <div class="service" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100">
                 <img src="images/our_service_1.jpg" alt="Henna Picture">
                 <div class="desc-con">
                   <div class="subheading">Custom Tattoos</div>
@@ -87,7 +91,7 @@
                 
             </div>
 
-            <div class="service">
+            <div class="service" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200">
                 <img src="images/our_service_2.jpg" alt="Henna Picture">
                 <div class="desc-con">
                   <div class="subheading">Cover-up Tattoos</div>
@@ -97,7 +101,7 @@
                 
             </div>
 
-            <div class="service">
+            <div class="service" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
                 <img src="images/our_service_3.jpg" alt="Henna Picture">
                 <div class="desc-con">
                   <div class="subheading">Portrait Tattoos</div>
@@ -110,14 +114,14 @@
 
    <!-- Our Artist -->
    <div class="our-artist-con" id="our-artist">
-    <div class="artist-details-con">
+    <div class="artist-details-con" data-aos="fade-right">
         <h1 class="content-heading">Meet ADSvanced Media Tech</h1>
         <h1 class="content-heading">Tattoo Artist</h1>
         <p class="parag-content">Meet Our Tattoo Artist, a talented and passionate tattoo artist at ADSvanced Media Tech. With decades years of experience, Our Artist is specializes in both traditional and modeern way of making tattoo. 
           We takes pride in creating custom tattoos that are not only visually stunning, but also meaningful to each individual client.</p>
     </div>
     
-    <div class="slideshow-container">
+    <div class="slideshow-container" data-aos="fade-in">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <img src="images/artist-1.jpg" style="width:100%">
@@ -160,7 +164,7 @@
 
     <!-- Testimonial Starts here -->
     <div class="testimonial-con" id="testim">
-      <h1 class="content-heading">What our clients say about us</h1>
+      <h1 class="content-heading" data-aos="zoom-in">What our clients say about us</h1>
       <div class="img-con">
           <img class="quote-img" src="images/format-quote-open.png" alt="">
       </div>
@@ -480,7 +484,7 @@
 
     <!-- Email Us Starts here -->
     <div class="email-us-form-con">
-        <div class="email-us-details-con">
+        <div class="email-us-details-con" data-aos="fade-right">
             <p class="email-us-tagline">Message Us Via Email.
               & We'll Design a Fantastic Tattoo Just For You
             </p>
@@ -489,7 +493,7 @@
                We look forward to hearing from you and helping you bring your tattoo vision to life.
             </p>
         </div>
-        <div class="email-us-form">
+        <div class="email-us-form" data-aos="fade-in">
           <form action="https://formspree.io/f/xyyakyvb" method="POST">
                 <input placeholder="Full Name" type="text" id="fname"  name="Full name" required><br>
                 <input placeholder="Email" type="email" id="email" name="Email" required> <br>
@@ -532,5 +536,8 @@
 
     <!-- Chat Feature JS -->
     <script src="js/chat-feature.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
 </body>
 </html>
